@@ -12,6 +12,14 @@ set -euo pipefail
 # APITOKENID
 # API_SECRET
 
+#example for env vars:
+
+#export API_HOST="192.168.1.10"          # Proxmox API server (use FQDN or IP)
+#export REALM="pam"                   # e.g., "pve" or your realm
+#export USERNAME="root@$REALM"    # e.g., root@pam or user@pve
+#export APITOKENID="tokenname"     # e.g., user!mytoken
+#export API_SECRET="super-secret-token"      # the token secret
+
 
 
 
