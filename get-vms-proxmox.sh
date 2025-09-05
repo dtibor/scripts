@@ -4,7 +4,9 @@
 set -euo pipefail
 
 
-# Query proxmox and save the followings as environment variables:
+# this script queries proxmox for all vms and containers.
+
+# save the followings as environment variables to run this script:
 # API_HOST
 # USERNAME
 # APITOKENID
